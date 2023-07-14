@@ -1,0 +1,11 @@
+streamlit
+streamlit-chat
+ffmpeg-python==0.2.0
+google-cloud-aiplatform
+requests
+urllib3
+langchain
+tiktoken
+python-dotenv
+youtube-transcript-api
+transformers
