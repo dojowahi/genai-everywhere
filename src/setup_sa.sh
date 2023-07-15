@@ -55,7 +55,18 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \
     --member=serviceAccount:${SERVICE_ACCOUNT} \
     --role=roles/storage.admin
+
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+    --member=serviceAccount:${SERVICE_ACCOUNT} \
+    --role=roles/run.invoker
     
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+    --member=serviceAccount:${SERVICE_ACCOUNT} \
+    --role='roles/run.admin'
+    
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+    --member=serviceAccount:${SERVICE_ACCOUNT} \
+    --role=roles/iam.serviceAccountUser    
 
 sleep 15
 
@@ -69,8 +80,7 @@ sleep 15
 
 project_id=${PROJECT_ID}
 sa=${SERVICE_ACCOUNT}
-
-echo "export SA=${sa}" >> ~/src/config.sh
+echo -e "export SA=${sa}" >> ~/genai-everywhere/src/config.sh
 
 
 

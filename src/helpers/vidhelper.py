@@ -20,9 +20,6 @@ from langchain import PromptTemplate
 # from google.cloud.aiplatform.language_models import TextEmbeddingModel
 from langchain.llms import VertexAI
 
-from model.vertexGenAI import (
-    CustomVertexAIEmbeddings,
-)
 import streamlit as st
 from llama_index import SimpleDirectoryReader
 from youtube_transcript_api import YouTubeTranscriptApi

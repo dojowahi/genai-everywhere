@@ -91,3 +91,11 @@ boolean_policy:
 EOF
 gcloud resource-manager org-policies set-policy \
     --project=${PROJECT_ID} new_policy.yaml
+
+cat <<EOF > new_policy.yaml
+constraint: constraints/iam.allowedPolicyMemberDomains 
+listPolicy:
+    allValues: ALLOW
+EOF
+gcloud resource-manager org-policies set-policy \
+    --project=${PROJECT_ID} new_policy.yaml

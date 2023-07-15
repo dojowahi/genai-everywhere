@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the app to the container
 COPY src/ .
 
-CMD streamlit run --server.enableCORS false Home.py
+CMD streamlit run --server.port 8080 --server.enableCORS false Home.py
