@@ -46,6 +46,4 @@ locking on the URL should take you to the app
 
 ### Congrats! You just deployed a Gen AI app on Cloud Run
 
-## 🚀 About me
-Ankur Wahi
-[![about me](https://icons8.com/icon/7694/about)](https://dojowahi.github.io/) 
+[![about me](https://img.shields.io/badge/About.me-00A98F.svg?style=for-the-badge&logo=aboutdotme&logoColor=white)](https://dojowahi.github.io/) 
