@@ -10,7 +10,7 @@ The goal of this demo is to deploy Gen AI apps on Cloud run
 ```console
 gcloud components update 
 cd $HOME
-git clone https://github.com/dojowahi/earth-engine-on-bigquery.git
+git clone https://github.com/dojowahi/genai-everywhere.git
 cd ~/genai-everywhere
 chmod +x *.sh
 ```
