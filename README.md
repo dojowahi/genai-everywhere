@@ -48,4 +48,4 @@ locking on the URL should take you to the app
 
 ## 🚀 About me
 Ankur Wahi
-[![about me](https://github.com/simple-icons/simple-icons/blob/develop/icons/aboutdotme.svg)](https://dojowahi.github.io/) 
+[![about me](https://icons8.com/icon/7694/about)](https://dojowahi.github.io/) 
