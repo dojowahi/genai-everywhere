@@ -72,4 +72,5 @@ sleep 15
 
 project_id=${PROJECT_ID}
 sa=${SERVICE_ACCOUNT}
+echo "" >> ~/genai-everywhere/src/config.sh
 echo -e "export SA=${sa}" >> ~/genai-everywhere/src/config.sh

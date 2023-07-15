@@ -11,7 +11,7 @@ The goal of this demo is to deploy Gen AI apps on Cloud run
 gcloud components update 
 cd $HOME
 git clone https://github.com/dojowahi/genai-everywhere.git
-cd ~/genai-everywhere
+cd ~/genai-everywhere/src
 chmod +x *.sh
 ```
 
