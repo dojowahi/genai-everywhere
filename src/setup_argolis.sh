@@ -41,7 +41,7 @@ gcloud config set project ${PROJECT_ID}
 
 echo "Assigning billing account"
 
-gcloud beta billing projects link ${PROJECT_ID} --billing-account=${BILLING_ACCOUNT_ID}
+gcloud beta billing projects link ${PROJECT_ID} --billing-account=${BILLING_ACCOUNT_ID} && echo "GCP project created successfully ${PROJECT_ID}"
 
 ##################################################
 ##
@@ -49,7 +49,7 @@ gcloud beta billing projects link ${PROJECT_ID} --billing-account=${BILLING_ACCO
 ##
 ##################################################
 
-echo "configuring org policies at project level"
+echo "Configuring org policies at project level"
 
 #enable VPC peering, disabled in argolis
 cat <<EOF > new_policy.yaml

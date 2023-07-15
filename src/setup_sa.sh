@@ -70,19 +70,6 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 sleep 15
 
-# gcloud iam service-accounts keys create ~/eeKey.json --iam-account ${SERVICE_ACCOUNT}
-# cd ~/
-# cp eeKey.json ~/earth-engine-on-bigquery/src/cloud-functions/ndvi/
-# cp eeKey.json ~/earth-engine-on-bigquery/src/cloud-functions/temperature/
-# cp eeKey.json ~/earth-engine-on-bigquery/src/cloud-functions/crop/
-
-# Cloud function setup for EE
-
 project_id=${PROJECT_ID}
 sa=${SERVICE_ACCOUNT}
 echo -e "export SA=${sa}" >> ~/genai-everywhere/src/config.sh
-
-
-
-
-
