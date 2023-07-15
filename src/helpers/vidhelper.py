@@ -3,9 +3,6 @@ import os
 from google.cloud import storage
 import datetime
 import ffmpeg
-import urllib.parse
-import json
-import time
 from langchain.chains.summarize import load_summarize_chain
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import (
@@ -15,13 +12,9 @@ from langchain.text_splitter import (
 import re
 from langchain import PromptTemplate
 
-# from langchain import OpenAI
-
-# from google.cloud.aiplatform.language_models import TextEmbeddingModel
 from langchain.llms import VertexAI
 
 import streamlit as st
-from llama_index import SimpleDirectoryReader
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # Configure logging
