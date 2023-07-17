@@ -28,7 +28,7 @@ If the shell script has executed successfully, you should now have a new GCP pro
 **4)** Next execute the command below
 
 ```console
-sh setup_sa.sh
+sh -x setup_sa.sh
 ```
 If the shell script has executed successfully, you should now have a new Service Account created.
 <br/><br/>
