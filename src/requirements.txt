@@ -4,7 +4,7 @@ ffmpeg-python==0.2.0
 google-cloud-aiplatform
 requests
 urllib3
-langchain
+langchain==0.0.229
 tiktoken
 python-dotenv
 youtube-transcript-api
