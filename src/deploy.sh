@@ -24,6 +24,8 @@ gcloud artifacts repositories create ${REPO_NAME} --project=${PROJECT_ID} --loca
 echo "Check if bucket ${BUCKET_NAME} and articfactory repo ${REPO_NAME} were created in project ${PROJECT_ID}"
 echo "bucket_name = ${BUCKET_NAME}" > ~/genai-everywhere/src/.env
 echo "project_id = ${PROJECT_ID}" >> ~/genai-everywhere/src/.env
+echo "region = ${REGION}" >> ~/genai-everywhere/src/.env
+
 cd ~/genai-everywhere
 
 docker build -t "us-central1-docker.pkg.dev/${PROJECT_ID}/${REPO_NAME}/ai-demos:1.0.0" -f src/Dockerfile .
