@@ -20,7 +20,7 @@ chmod +x *.sh
 **3)** Next execute the command below
 
 ```console
-sh setup_argolis.sh
+sh -x setup_argolis.sh
 ```
 If the shell script has executed successfully, you should now have a new GCP project created, based on the name in your config.sh
 <br/><br/>

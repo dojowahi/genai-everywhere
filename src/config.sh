@@ -13,7 +13,7 @@ export USER_EMAIL=<insert gcp user email>
 export PROJECT_ID=<insert project id>
 
 # the new project will need to be tied to a billing account, uncomment the line below for Argolis users and update value
-# export BILLING_ACCOUNT_ID=<insert billing account>
+export BILLING_ACCOUNT_ID=<insert billing account>
 
 # desired GCP region for networking and compute resources, EDIT region below based on your need
 export REGION=us-central1
