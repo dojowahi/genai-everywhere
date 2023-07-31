@@ -22,6 +22,7 @@ gcloud auth configure-docker us-central1-docker.pkg.dev
 
 gcloud artifacts repositories create ${REPO_NAME} --project=${PROJECT_ID} --location=${REGION} --repository-format=docker
 echo "Check if bucket ${BUCKET_NAME} and articfactory repo ${REPO_NAME} were created in project ${PROJECT_ID}"
+
 echo "bucket_name = ${BUCKET_NAME}" > ~/genai-everywhere/src/.env
 echo "project_id = ${PROJECT_ID}" >> ~/genai-everywhere/src/.env
 echo "region = ${REGION}" >> ~/genai-everywhere/src/.env
