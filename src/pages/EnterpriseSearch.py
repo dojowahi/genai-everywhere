@@ -50,5 +50,3 @@ if submit_button:
             st.dataframe(df)
             st.caption("Output after summarization")
             st.write(output.text)
-        # st.write(results)
-        # st.write(response_json)

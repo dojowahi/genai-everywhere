@@ -12,11 +12,7 @@ from dotenv import load_dotenv
 import logging
 from os.path import basename
 from typing import List, Optional, Tuple
-from langchain.chains import (
-    RetrievalQA,
-    RetrievalQAWithSourcesChain,
-    ConversationalRetrievalChain,
-)
+
 from langchain.memory import ConversationBufferMemory
 import vertexai
 from langchain.llms import VertexAI
