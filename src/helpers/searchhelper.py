@@ -29,7 +29,6 @@ load_dotenv()
 
 # Custom functions
 bucket_name = os.getenv("bucket_name")
-project_id = os.getenv("project_id")
 location = os.getenv("region")
 
 logging.basicConfig(level=logging.INFO)
